@@ -166,7 +166,7 @@ public class LinkedListImpl<E> implements MyLinkedList<E> {
         for (int i = 0; i < index; i++) {
             cur = cur.next;
         }
-        return (E)cur.next.data;
+        return (E)cur.data;
     }
 
     /**
