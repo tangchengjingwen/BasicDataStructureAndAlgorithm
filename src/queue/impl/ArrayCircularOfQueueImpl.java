@@ -43,7 +43,7 @@ public class ArrayCircularOfQueueImpl<E> implements MyQueue<E> {
         if (tail == head) {
             resize(data.length * 2);
         }
-        return false;
+        return true;
     }
 
     @Override
